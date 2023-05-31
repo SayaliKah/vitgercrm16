@@ -1,0 +1,105 @@
+ *Action class*
+- action and select class steps are similar.
+* why use this ? 
+=> to perform mouse guseter(right click , scrolling etc.) and keybord guester
+
+*steps of Action class  -:
+1.creates the object of actions.
+   Actions a = new Actions();
+2.                         |web driver refernce pass as an argument for actions constuctor.
+  Actions a = new Actions(driver);
+3. with refrence variable call nonstatic methods  a.click();
+4. call perform ();
+
+**methods of action class:-
+1.click()
+2.click(webElement target)
+3.context click()
+4.contextclick(webElement target)
+5.double click()
+6.double click(webElement target)
+7.click & hold
+8.click & hold(webElement target)
+9.Release()
+10.Release(webElement target)
+11.MovetoElement(webElement target)
+12.MovetoElement(webElement target, int xoffset, int yoffset)
+13.MoveByoffset(int xoffset , int yoffset)
+14.key up()
+15.key Down()
+16.send keys(char sequence)
+17.send keys(webElement target ,char sequence)
+18.drag and drop()
+19.drag and drop by()
+20.perform()
+21.build()
+
+-------------------------------------------------------------------------------------
+1.click() :
+3. contex click means nothing but right click
+----------------------
+20.perform action if we not calling it wont perform any method.so call it 
+21.build is call complsary. when selenium 3 version call it. when call build perform the click& hold and ......recording
+ 14.keyup use control relese
+15.keydown use control press  
+*steps of keys Up and Down :
+1.controlpress[keydown]
+2.cilck on all feature  ...use findElements
+3.controlRelese[keyup]
+
+----------------------------------
+*findElements:
+-use multiple Elements 
+
+-----------------------------------------------------------
+*git and github:-
+-share the codes 
+-testcase and 
+-local andglobal repository (repositarty means store the place)
+* opertions:
+1.clons
+2.push
+3.pull
+
+*steps:-
+
+------------------------------
+*how to store in eciplies in mavel projects :
+steps1:
+->go to ecplices => go file=> new=> intrnet connect=> project=>go to folder marvan is alreay present=>open it =>go malvel project name is present =>click next=>window=>selectt the checkbox(creat the symobol project)=>click on next=>window having group id and artifacte id =>pass sameid or diff id =>click on finish =>waitup to 100%=>aftercompleting m or g (4)folder is created.
+
+steps2:
+download chromedriver =>up to extract same process and same upto copy file=>then cometo ecplise and select maval project and past it.
+
+steps 3:- how to add tool for maval project
+open pom.xml=>overview open or program is show =>inside this add tag line 6 =>add tag call dependencies (autosuggistion is commimng) =>then go chrome type maval repogeritory =>click on mavale repojerty =>tupe selenium and click on search button =>click on selenium javav=>select the usages 56 and version is 4.8.3 or 4.4.0 (if not support) =>click on => scroll down =>copy some program => copy and paste line 7
+=> save and wait 100% =>in project having maven dependency folder.
+steps4.:
+search testng on =>7.4.0 version 
+
+-return type list < webElement >
+-exceptions emptylist 
+
+*steps to write xpath write :-
+
+1.inspect the element (any element)
+2.close to tags(BACKWORAD DIRECTION ). boz find the simliar element in all the feature and util close the tag you get element one below another (boz find similar tags)
+ 
+---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
