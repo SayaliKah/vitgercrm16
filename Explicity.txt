@@ -1,0 +1,124 @@
+*Explicit wait :
+ -work on condition  or predicates (check actualtitle == exceptedtitle)
+ -use rather than findelement and findelements 
+ -timeout exception whencondition is not true and explicit way is applied 
+
+-codn is satisfy returns true and remaining line is excutued 
+-condn is not satify returns false and remaning line is not excuted
+
+-------------------------------------------------------------------------
+go to chrome -> orangehrm-> click firest link ->open 
+url :
+      http://www.orangehrm.com/orangehrm-30-day-trial/
+-----------------------------------------------------------------------
+*select class(): it is concrete class
+- to handle dropdown using select class
+types: 
+1.single list drop down 
+2.multi list drop down [ex add location , more than one ]
+* sendkeys and select class handle the dropdown
+
+methods :
+                        [1-5 => use singlelist or multi also drop down ]
+1.is multiple ()
+2.get options()
+3.select by visible text()
+4.select by value()
+5.select by Index()
+6.getfirstSelected option() .........use multi drop down
+
+*steps of select class :
+1.create the object of select.
+   Select s = new Select()<- select constructor
+                         |
+                          pass te
+
+2.call the method        
+  s is multiple()
+
+3.select constructor pass the argument  te 
+
+-------------------------------------------------------------------------
+1.is multiple():
+te is check single list or multi list and true when it is multilist dropdown and false single list 
+and return type is boolean
+------------------------------------------------------------
+2.getoptions():
+
+*options means multiple 
+*option means one [single]
+
+-getting all the options inside the te[dropdown]
+
+-get text () method is not pass more than one element so we use for each concepts 
+
+for(datatype variable : collection/array) 
+-----------------------------------------------------------------------------
+3.select by visible text():
+
+-pass the text and passing text is select 
+-pass what u show on web page that element is select and see in webpage
+		
+----------------------------------------------------------------------------
+4.select by value ():
+
+passing attibute value according to that getting value
+
+*return the attribute value by use getattribute(pass attribuyr name);[and o/p is attribute value ]and attribute nmae  for i/p and attribute value o/p.
+--------------------------------------------------------------------
+
+5.select by Index ():
+
+-based on index value 
+-index value start from 1.
+-but select value index start from 0.
+
+when n no of option how to call?
+=> use get option  ex- ele = s.getOPtions();
+ for (i=0 ; i<ele.size-1 ; i++) .....-1 boz index start from 0.
+
+--------------------------------------------------------------------------------
+6.getfirstSelected option():
+
+-use in multilist dropdown .not use in singlelist dropdown 
+-but what happen when you use singlelist op is select the current option whatever is present .
+ 
+---------------------------------------------------------------------------------------------------
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
